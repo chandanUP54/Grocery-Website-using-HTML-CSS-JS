@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery App</title>
+    <!-- Add icon library of font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Header starts-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Grocery</a>
+
+        <nav class="navbar">
+            <a href="#banner">Home</a>
+            <a href="#feature">Features</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-btn"></div>
+            <div class="fa fa-search" id="search-btn"></div>
+            <div class="fa fa-shopping-cart" id="card-btn"></div>
+            <div class="fa fa-user" id="login-btn"></div>
+        </div>
+        <!--Search Form-->
+        <form class="search-form">
+            <input id="search-box" type="search" placeholder="Seach Here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <!--Making Shoping Cart-->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="image1">
+                <div class="content">
+                    <h3>Watermelon</h3>
+                    <span class="price">$5.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="image2">
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$7.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="image3">
+                <div class="content">
+                    <h3>Carrot</h3>
+                    <span class="price">$10.99/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total">Total : $24.97/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+        <!--Login Form section-->
+        <form action="#" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="Enter Email.." class="box">
+            <input type="password" placeholder="Enter Password.." class="box">
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Dont Have an Account <a href="#">Create Here</a></p>
+            <input type="submit" class="btn" value="Submit Now">
+        </form>
+    </header>
+    <!--Header ends-->
+
+    <!--Banner Section starts-->
+    <section class="banner" id="banner">
+        <div class="content">
+            <h3>Fresh and <span> Organic </span> Product for you</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum est natus
+                asperiores explicabo pariatur similique? In dolorum iusto molestiae sint.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+    <!--Banner Section Ends-->
+
+    <!--Feature section starts-->
+    <section class="feature" id="feature">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/feature-img-1.png" alt="">
+                <h3>Fresh and Organic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolore, ipsa?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-2.png" alt="">
+                <h3>Free Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolore, ipsa?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="box">
+                <img src="image/feature-img-3.png" alt="">
+                <h3>Easy Payment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Dolore, ipsa?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+    <!--Feature section ends-->
+
+    <!--Products section starts-->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="product-slider">
+            <div class="wrapper">
+
+                <div class="box">
+                    <img src="image/product-1.png" alt="">
+                    <h1>Orange</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-2.png" alt="">
+                    <h1>Onion</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-3.png" alt="">
+                    <h1>Meat</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-4.png" alt="">
+                    <h1>Cabbage</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-5.png" alt="">
+                    <h1>Potato</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-6.png" alt="">
+                    <h1>Avocados</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-7.png" alt="">
+                    <h1>Carrots</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="box">
+                    <img src="image/product-8.png" alt="">
+                    <h1>Lemon</h1>
+                    <div class="price">$8.1/- -$10.99/-</div>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Products section Ends-->
+
+    <!--Product categories starts-->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/cat-1.png" alt="">
+                <h3>Vegetables</h3>
+                <p>Up to 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="image/cat-2.png" alt="">
+                <h3>Fresh Fruits</h3>
+                <p>Up to 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="image/cat-3.png" alt="">
+                <h3>Dairy Products</h3>
+                <p>Up to 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="box">
+                <img src="image/cat-4.png" alt="">
+                <h3>Fresh Meats</h3>
+                <p>Up to 45% Off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <!--Product categories Ends-->
+
+    <!--Customers review starts-->
+    <section class="reviews" id="reviews">
+        <h1 class="heading">Our <span>Features</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/pic-1.png" alt="">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus nostrum aliquid explicabo?
+                    Velit sunt numquam saepe ut, cupiditate nam obcaecati.</p>
+                <h3>Chandan Sharma</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/pic-2.png" alt="">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus nostrum aliquid explicabo?
+                    Velit sunt numquam saepe ut, cupiditate nam obcaecati.</p>
+                <h3>Chandan Yadav</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/pic-3.png" alt="">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus nostrum aliquid explicabo?
+                    Velit sunt numquam saepe ut, cupiditate nam obcaecati.</p>
+                <h3>Chandan Chauhan</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--footer Sectio Starts-->
+    <section class="footer">
+        <div class="footer-container">
+            <div class="box">
+                <h1>Groco <span class="fa fa-shopping-basket logo"></span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Molestiae, quibusdam!</p>
+                <div class="social-media">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa  fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin-square"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h1>Contact Info</h1>
+                <h3><span class="fa fa-phone"> </span>+91-4567456578</h3>
+                <h3><span class="fa fa-phone"></span>+91-4567456578</h3>
+                <h3><span class="fa fa-envelope"></span>email@gmail.com</h3>
+                <h3><span class="fa fa-map-marker"></span>Pune,India-400104</h3>
+            </div>
+            <div class="box">
+                <h1>Quick Links</h1>
+                <a href="#banner"><span class="fa fa-arrow-right"> </span>Home</a> <br>
+                <a href="#feature"><span class="fa fa-arrow-right"> </span>Features</a> <br>
+                <a href="#products"><span class="fa fa-arrow-right"> </span>Products</a> <br>
+                <a href="#categories"><span class="fa fa-arrow-right"> </span>Categories</a> <br>
+                <a href="#reviews"><span class="fa fa-arrow-right"> </span>Reviews</a>
+            </div>
+            <div class="box">
+                <h1>Newsletter</h1>
+                <p>Subscribe for latest news</p>
+                <form class="submit-form">
+                    <input type="email" id="fname" placeholder="your email">
+                </form>
+                <a href="#" class="btn">Subscribe</a>
+                <br>
+                <img src="image/payment.png" alt="" class="image">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="credit">
+            <h1>Created by <span>Chandan Chauhan</span> | All Right Reserved</h1>
+        </div>
+    </section>
+    <!--footer Sectio Ends-->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
